@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How much did I spend on Groceries in April 2024?",
+    "expected": "1701.92"
+  },
+  {
+    "question": "What was my total spending on Bills from January 2025 to March 2025?",
+    "expected": "8740.67"
+  },
+  {
+    "question": "How much did I spend on Transportation in 2024?",
+    "expected": "4059.71"
+  },
+  {
+    "question": "What did I spend on Entertainment in June 2024?",
+    "expected": "494.30"
+  },
+  {
+    "question": "How much did I spend on Healthcare in the second half of 2024?",
+    "expected": "26402.76"
+  },
+  {
+    "question": "What was my total Food & Beverage spending in 2024?",
+    "expected": "2461.66"
+  },
+  {
+    "question": "How much did I spend on Groceries in the first quarter of 2025?",
+    "expected": "5303.40"
+  },
+  {
+    "question": "What was my Bills spending in July 2024?",
+    "expected": "4217.91"
+  },
+  {
+    "question": "How much did I spend on Transportation in January 2025?",
+    "expected": "475.53"
+  },
+  {
+    "question": "What was my Entertainment spending in December 2024?",
+    "expected": "1526.98"
+  },
+  {
+    "question": "What were my top 3 spending categories in 2024?",
+    "expected": "Healthcare"
+  },
+  {
+    "question": "Which category did I spend the most on in the first half of 2024?",
+    "expected": "Bills"
+  },
+  {
+    "question": "What were my top 2 expense categories in Q1 2025?",
+    "expected": "Healthcare"
+  },
+  {
+    "question": "Which category had the highest spending in October 2024?",
+    "expected": "Healthcare"
+  },
+  {
+    "question": "What were the top 3 expense categories overall?",
+    "expected": "Healthcare"
+  },
+  {
+    "question": "How many Healthcare transactions did I have in May 2024?",
+    "expected": "9"
+  },
+  {
+    "question": "How many Groceries transactions did I have in Q3 2024?",
+    "expected": "35"
+  },
+  {
+    "question": "How many Bills transactions occurred in 2024?",
+    "expected": "100"
+  },
+  {
+    "question": "How much did I spend on Healthcare before 2024?",
+    "expected": "0.00"
+  },
+  {
+    "question": "What was my total Groceries spending from March 2024 to March 2025?",
+    "expected": "18097.94"
+  }
+]

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finance Assistant</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <span class="logo">💳</span>
+        <h1>Finance Assistant</h1>
+      </div>
+
+      <div class="summary-section">
+        <h2 class="section-label">Top Categories</h2>
+        <div id="top-categories" class="category-list">
+          <div class="skeleton"></div>
+          <div class="skeleton"></div>
+          <div class="skeleton"></div>
+        </div>
+      </div>
+
+      <div class="summary-section">
+        <h2 class="section-label">Suggested Questions</h2>
+        <ul class="suggestions">
+          <li data-q="What were my top 3 spending categories in 2024?">Top 3 categories in 2024</li>
+          <li data-q="How much did I spend on Groceries in April 2024?">Groceries spend — Apr 2024</li>
+          <li data-q="What were my last 5 Entertainment transactions?">Last 5 Entertainment transactions</li>
+          <li data-q="How much did I spend on Bills in January 2025?">Bills spend — Jan 2025</li>
+          <li data-q="What was my total Healthcare spending in 2024?">Healthcare total — 2024</li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Main chat area -->
+    <main class="chat-area">
+      <div class="chat-header">
+        <span class="status-dot" id="status-dot"></span>
+        <span id="status-text">Connected</span>
+      </div>
+
+      <div class="messages" id="messages">
+        <div class="message assistant">
+          <div class="bubble">
+            Hi! Ask me anything about your expenses — categories, date ranges, top spends, or specific transactions.
+          </div>
+        </div>
+      </div>
+
+      <form class="input-bar" id="chat-form" autocomplete="off">
+        <textarea
+          id="question-input"
+          class="question-input"
+          placeholder="Ask about your expenses…"
+          rows="1"
+          maxlength="500"
+        ></textarea>
+        <button type="submit" id="send-btn" class="send-btn" aria-label="Send">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </form>
+    </main>
+
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
